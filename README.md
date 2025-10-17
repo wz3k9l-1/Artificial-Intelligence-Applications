@@ -1,5 +1,5 @@
 # Artificial-Intelligence-Applications
-Файлы main.py, model_module.py, requiements.txt и training должны находиться в папке, допустим "C:\Users\[имя пользователя]\Desktop\laba6\", файл index.html должен находиться отдельно, но в той же папке, т.е "C:\Users\[имя пользователя]\Desktop\laba6\templates\"
+Файлы main.py, model_module.py, requirements.txt и training.py должны находиться в папке, допустим "C:\Users\[имя пользователя]\Desktop\laba6\", а файл index.html отдельно, но по той же директории, т.е "C:\Users\[имя пользователя]\Desktop\laba6\templates\"
 После чего, первым делом, нужно запустить training.py (желательно через PyCharm, но для начала установить все requirements), после обучения модели появится датасет iris_model.h5 в корне проекта, также в консоли будет точность на тесте (должна быть высокой, ~0.95+). 
 Далее нужно запустить приложение с помощью терминала в корне проекта (также через PyCharm), используя команду "uvicorn main:app --reload". 
 После всех этих действий в терминале выведется сообщение вроде: "Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)", открываем браузер и переходим по адресу: http://127.0.0.1:8000, увидете форму для ввода параметров цветка (Sepal Length, Sepal Width, Petal Length, Petal Width), введите примерные значения, например:
